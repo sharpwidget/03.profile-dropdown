@@ -5,9 +5,11 @@
     // Get toggle and burger elements
     const toggle = document.querySelector('.toggle');
     const dropdown = document.querySelector('.dropdown');
+
+    // Specify dropdown toggle's state class
     const dropdownOpenClass = 'dropdown-open';
 
-    // Add toggle event listner
+    // Add toggle click event listner
     toggle.addEventListener('click', () => {
       dropdown.classList.toggle(dropdownOpenClass);
     });

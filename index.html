@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple animated burger menu toggle">
+    <link href="favicon.png" type="image/png" rel="shortcut icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" rel="stylesheet" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <title>Profile dropdown • SharpWidget</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="dropdown">
+        <button title='Toggle user menu' class="toggle">
+          <img src="avatar.jpg" alt="avatar" class="avatar">
+          <div class="user-info">
+            <span class="name">JOHN DOE</span>
+            <span class="email">johndoe@email.com</span>
+          </div>
+          <i class="arrow fas fa-chevron-down"></i>
+        </button>
+        <ul class="menu">
+          <li>
+            <a class="menu-item item-selected" href="#">
+              <i class="icon fas fa-user"></i>
+              <span class="value">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a class="menu-item" href="#">
+              <i class="icon fas fa-envelope"></i>
+              <span class="value">Messages</span>
+            </a>
+          </li>
+          <li>
+            <a class="menu-item" href="#">
+              <i class="icon fas fa-cog"></i>
+              <span class="value">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a class="menu-item" href="#">
+              <i class="icon fas fa-sign-out-alt"></i>
+              <span class="value">Sign-out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </body>
+</html>
